@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Overall color scheme changed to #d6d2c4 contrasted with #d6d2c4 for higher accessability rating. */
+
+body {
+    /*background color changed to match new color scheme. */
+    background-color: #d6d2c4;
+}
+
+/* .header class replaced with semantic element header. */
+header {
+    /* Header background and company name color changed to aforementioned higher rated accessability color scheme. */
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #003b49;
+    color: #d6d2c4;
+}
+/* .header class replaced with semantic element header. */
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* .header class replaced with semantic element header. */
+header h1 .seo {
+    /* Changed color to make SEO stand out, purely aesthetic. */
+    color: #cab155;
+}
+/* .header class replaced with semantic element header, and div replaced with nav. */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* .header class replaced with semantic element header, and div replaced with nav.*/
+header nav ul {
+    list-style-type: none;
+}
+/* .header class replaced with semantic element header, and div replaced with nav. */
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    /* Changed header navigation font color to match SEO and section headers. */
+    color: #cab155;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    /* Unsure at this moment as to how to assign accessability tags to a psuedo-element.
+    Also, resources online say to avoid them as assistive technology misunderstands them. */
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.benefits {
+    /* Changed benefits background color to a lighter shade of the #003b49 for styling. */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #005469;
+}
+
+
+.benefit-lead, .benefit-brand, .benefit-cost {
+    /* Consolidated redundant code. */
+/* Changed text color. */
+    margin-bottom: 32px;
+    color: #d6d2c4;   
+}
+
+
+.benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
+    /* Consolidated redundant code. */
+/* Added color property of cab155 to match other section headers. */
+    margin-bottom: 10px;
+    text-align: center;
+    color:#cab155;   
+}
+
+
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
+    /* Consolidated redundant code. */
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;   
+}
+
+
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    /* Consolidated redundant code. */
+/* Changed background color to match aforementioned higher rated accessability color scheme. */
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #003b49;
+    color: #d6d2c4;    
+}
+
+
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
+    /* Consolidated redundant code. */
+    max-height: 200px;
+}
+
+
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    /* Consolidated redundant code. */
+/* Added color property to change section header color to match navigation header color. */
+    margin-bottom: 20px;
+    font-size: 36px;
+    color:#cab155;    
+}
+
+/* .footer class changed to semantic element footer. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
